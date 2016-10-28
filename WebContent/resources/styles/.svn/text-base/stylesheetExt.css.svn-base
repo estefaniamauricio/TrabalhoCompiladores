@@ -1,0 +1,656 @@
+body {
+	background-color: #FFFFFF;
+	color: #666666;
+	
+	
+}
+
+.form-body {
+	background-image: url("../images/layout.jpg"); 
+	background-repeat: no-repeat;
+	position:relative;
+	top:0px;
+	z-index:0;
+}
+
+.form-senha-body {
+	background-image: url("../images/layout_senha.jpg"); 
+	background-repeat: no-repeat;
+	position:absolute;
+	top:0px;
+	left: 0px;
+	z-index:0;
+}
+.form-login-body {
+	background-image: url("../images/login.jpg"); 
+	background-repeat: no-repeat;
+	position:absolute;
+	top:0px;
+	left: 0px;
+	z-index:0;
+	
+}
+.form-portal-body {
+	background-image: url("../images/portal.jpg"); 
+	background-repeat: no-repeat;
+	position:absolute;
+	top:0px;
+	
+	z-index:0;
+}
+.header-label {
+	position: absolute;
+	text-align: center;
+	font-family: verdana, serif, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	
+	color: #FFFFFF;
+}
+
+
+
+
+/* Style rules to make data tables look better */
+.list-header {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	background-color: #F5F5F5;
+	font-weight: bold;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	height: 20px;
+}
+
+.list-header-white {
+	border-width: 0px;
+	border-style: solid;
+	font-weight: bold;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	height: 20px;
+	text-align: left;
+}
+
+
+
+.list-paging-header {
+	text-align: center;
+}
+
+.list-paging-footer {
+	text-align: center;
+}
+
+
+
+.list-row-even {
+	font-family: verdana, serif, sans-serif;
+	color: #666666;
+	font-size: 11px;
+	height: 20px;
+	background-color: #F7F7F7;
+}
+
+.list-row-mod {
+	font-family: verdana, serif, sans-serif;
+	color: #003195;
+	font-size: 11px;
+	height: 20px;
+	background-color: #FDF7E57;
+}
+
+.list-row-even-white {
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	height: 20px;
+}
+
+.list-row-odd {
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	height: 20px;
+	background-color: #FFFFFF;
+}
+
+.list-row {
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 10px;
+	height: 20px;
+	background-color: #FFFFFF;
+	width: 80px;
+}
+
+
+/*Style rules for message severity levels */
+.infoMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color:#333333;
+	background-color: #FEC194;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.warnMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	background-color: #99CCFF;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.errorMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #C06C6C;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fatalMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #EF1408;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.helpbuttom {
+	position: absolute;
+	left: 30px;
+	top: 550px;
+	
+}
+
+
+
+
+
+
+img {
+	background-color: none;
+	border: none;
+}
+
+.vazio {
+	
+}
+
+.estreito {
+	width: 1%;
+}
+
+/*Classes utilizadas como base para montagem do panel-grid*/
+
+.leftClass {
+	text-align: left;
+}
+
+.rightClass {
+	text-align: right;
+}
+
+.centerClass {
+	text-align: center;
+}
+
+.rightTopClass {
+	text-align: right;
+	vertical-align: top;
+}
+
+.leftTopClass {
+	text-align: left;
+	vertical-align: top;
+}
+
+.middleClass {
+	left-valign: middle;
+}
+
+.topClass {
+	vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo utilizado para os componentes em HTML  */
+
+.div-frame {
+	overflow: auto;
+}
+.div-identificacaoUsuario {
+	text-align:left;
+	position:absolute;
+	top: 63px;
+	left: 90px;
+	height: 16px;
+	width: 166px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.div-nomeModulo {
+	writing-mode: tb-rl; 
+	filter: flipv fliph;
+	text-align: center;
+	vertical-align:middle;
+	position: absolute;
+	height: 388px;
+	width: 49px;
+	top:61px;
+	left: 25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.div-nomeFuncionalidade {
+	text-align:center;
+	vertical-align:middle;
+	position:absolute;
+	height: 30px;
+	width: 325px;
+	top: 50px;
+	left: 645px;
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+
+.button-link {
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: underline;
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	cursor: hand;
+	text-align: right;
+	vertical-align: middle;
+	border-style: solid;
+}
+
+.button-link-left {
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: underline;
+	background-color: transparent;
+	border-color: transparent;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	cursor: hand;
+	text-align: left;
+	vertical-align: middle;
+	border-style: solid;
+}
+
+.button-link-panel {
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	text-decoration: underline;
+	background-color: transparent;
+	border-color: transparent;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-style: solid;
+	cursor: hand;
+}
+
+.button-link-panel-neg {
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: transparent;
+	border-color: transparent;
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-style: solid;
+	cursor: hand;
+}
+
+.button-link-neg {
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: underline;
+	background-color: transparent;
+	border-color: transparent;
+	border-width: 0px;
+	border-style: solid;
+	cursor: hand;
+}
+
+.text-label-left {
+	vertical-align: middle;
+	text-align: left;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+}
+
+.text-label-center {
+	vertical-align: middle;
+	text-align: center;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+}
+
+.text-label {
+	vertical-align: middle;
+	text-align: right;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+}
+.text-label-tabela {
+	vertical-align: middle;
+	text-align: left;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.text-label-blue {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.text-label-neg {
+	vertical-align: middle;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+
+
+
+
+.check-label {
+	vertical-align: top;
+	text-align:left;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 13px;
+}
+
+.radio-label {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 13px;
+}
+
+.input-text {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	border-color: #999999;
+	border-width: 1px;
+	border-style: solid;
+	height: 20px;
+	
+}
+
+.input-text-bold {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	height: 20px;
+	font-weight: bold;
+	
+}
+
+.input-text-radius {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	height: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;"
+}
+
+
+
+.list-text {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	border-color:#999999;
+	border-width: 1px;
+	border-style: solid;
+	background: #FFFFFF;
+}
+
+
+
+.textUsuario {
+	font-family: verdana, serif, sans-serif;
+	font-size: 10px;
+	color:  #333333;
+	position: absolute;
+	left: 85px;
+	top: 65px;
+}
+
+.command-button {
+	font-family: verdana, serif, sans-serif;
+	height: 20px;
+	font-size: 11px;
+	color: #333333;
+	background-color: #D9D9D9;
+	border-color: #333333;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.botaoProcedure {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	background-color: #FFFFFF;
+}
+
+
+.component-panel {
+	border: 1px solid #999999;
+}
+
+
+
+
+
+
+
+/* Links */
+a:link {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color:  #333333;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+a:visited {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color:  #333333;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+/* Style para abas em Javascript */
+.aba {
+	border-color:#CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	width:130px;
+	height:25px;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.fundoAba {
+	border-color:#CCCCCC;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #FFFFFF;
+	width:855px;
+	height:390px;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+ 
+
+
+
+/* Miscellaneous settings */
+.systemNameImage {
+	position: absolute;
+	left: 20px;
+	top: 80px;
+}
+
+.helpbuttom {
+	position: absolute;
+	left: 32px;
+	top: 540px;
+}
+
+.menuButtom {
+	position: absolute;
+	left: 800px;
+	top: 8px;
+}
+.portalMenu {
+	font-family: verdana;
+	font-size: 20px;
+	color: #333333;
+}
+
+
+/* Portal settings */
+a:link .systemNameLinkLabel {
+	width: 180px;
+	position: absolute;
+	left: 17px;
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color: #2B2B81;
+	background-color: #FFCB27;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+a:visited .systemNameLinkLabel {
+	width: 180px;
+	position: absolute;
+	left: 17px;
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color: #2B2B81;
+	background-color: #FFCB27;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+/* Estilos para bot�es */
+.n-disabled {
+	cursor: default;
+}
+
+.button-enabled {
+	
+}
+
+/* Estilos para o calend�rio*/
+.currentDay {
+	border: 1px;
+	border-style: solid;
+	font-weight: bold;
+	background-color: #B8DCC5;
+}
+
+/* Estilo do link para fechar msgs*/
+.linkFechar {
+	position: absolute; 
+	display: none; 
+	z-index: 6; 
+	font-weight: bold;
+	text-decoration: none;	
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #2B2B81;
+	cursor: pointer;		
+}
+.messageList{
+	width: 480px; 
+	left: 5px; 
+	top: 350px; 
+	position: absolute;
+}
+
+/* para caregar imgs*/
+.search {  
+    background-image: url("../images/search.png");  
+}
+

@@ -1,0 +1,277 @@
+.inp {
+	width: 300px;
+	/*margin-left: 5px;*/
+}
+.noPadding {
+	padding: 0 !important;
+}
+.noPaddingLeft {
+	padding-left: 0 !important;
+}
+.center {
+	text-align: center;
+}
+
+output[type=text], outputText {
+	text-align: right;
+}
+
+.semBorda tr, .semBorda td {
+	border: none !important;
+	margin-top: 20px;
+}
+
+#form:j_idt69 {
+	border: none;
+}
+
+.radio {
+	margin-left: 6px;
+	margin-right: 11px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 20px;
+	float: right;
+}
+
+.bordaObrigatoria {
+	border: solid 1px #ff4500;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.alert {
+	display: block;
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.atencao {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.alert-info {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+
+.alert-danger {
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+}
+
+.alert-success {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+/* estilos botoes */
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #4d90fe;
+	border-color: #3079ed;
+}
+
+.btn-success a {
+	color: #f9f9f9 !important;
+	text-decoration: none;
+}
+
+.btn-info-2 {
+	color: #fff;
+	background-color: #5bc0de;
+	border-color: #46b8da;
+}
+
+.btn-warning-2 {
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #eea236;
+}
+
+/* para os blocos de titulo do portal */
+.icone {
+	/* width: 20%; */
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+
+.titulo {
+	width: 80%;
+	overflow: hidden;
+	/* float: left; */
+	margin: 0;
+}
+
+.titulo titulo_painel {
+	padding: 0;
+	margin: 13px 0 0 20px;
+}
+
+.titulo h3 {
+	padding: 0;
+	margin: 13px 0 0 20px;
+}
+
+.tudo {
+	min-height: 100%;
+	position: relative;
+}
+
+#rodape {
+	/*position: absolute;*/
+	left: 0px;
+	bottom: 0;
+	width: 100%;
+	background: #333;
+	border-top: 3px solid #fff;
+	/* background: #ddd;
+	border-top: 1px solid #ccc; */
+}
+
+.rodape {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.corpo {
+	min-height: 100%;
+}
+
+.corpo #form {
+	margin-bottom: 10px;
+}
+
+/* min-height */
+@media screen and (min-height: 900px) {
+	#rodape {
+		position: absolute;
+	}
+}
+
+/* IE 6 */
+* html #rodape {
+	position: absolute;
+	top: expression(( 0 -( footer.offsetHeight)+(document.documentElement.clientHeight?
+		
+		 document.documentElement.clientHeight: document.body.clientHeight)+(ignoreMe=
+		
+		 document.documentElement.scrollTop? document.documentElement.scrollTop:
+		
+		 document.body.scrollTop))+'px');
+}
+.footer-content {
+	width: 85%;
+	margin: 0 auto;
+}
+.page-footer {
+	padding: 30px 0 20px 0;
+}
+
+.copy {
+	display: block;
+	color: #8A8A8A;
+	float: left;
+	font-size: 12px;
+	font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif !important;
+	    padding-top: 3px;
+}
+
+.logo-footer {
+	color: #646264;
+	font-size: 12px;
+	display: block;
+	float: right;
+}
+
+.obrigatorio {
+	right: 2.7%;
+	position: absolute;
+	color: #fff !important;
+}
+
+blockquote h4 {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+blockquote p {
+	font-size: 0.75em;
+}
+
+p.semMarginBottom {
+	margin-bottom: 0px;
+}
+
+small.tramitacao {
+	font-size: 90%;
+	color: #64B1DE !important;
+}
+
+img.svg_portal {
+	width: 20px;
+	margin-right: 10px;
+	    vertical-align: -3px;
+}
+
+.sombraTexto {
+/* 	text-shadow: 0px 2px 2px rgba(150, 150, 150, 1); */
+	text-shadow: 0px 0px 4px rgba(255, 255, 255, 1);
+	margin: 25px 0;
+	color: #000;
+}
+
+.fundoNiver {	
+    background-image: url("../images/niver.png");
+    background-repeat: no-repeat;
+        background-position: -60px -90px;
+   }
+   
+  .encerrado {
+  	background: red !important;
+  }
+  .emaberto {
+  	color: green;
+  }
+  
+/*** obs **/
+.espacoObs a {
+    margin-right: 7px;
+}
+.espacoObs {
+    padding-top: 30px;
+}

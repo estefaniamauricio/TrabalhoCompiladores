@@ -1,0 +1,370 @@
+body {
+	margin: 0;
+	height: 100%;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Arimo:700);
+
+@font-face {
+	font-family: 'ArimoBold';
+	src: url(http://fonts.googleapis.com/css?family=Arimo:700);
+}
+
+/* --------- interessante para o layout ----*/
+.margemCincopx {
+	margin: 5px;
+}
+
+.campoGrande {
+	width: 100%;
+	background: none #f5f5f5;
+}
+
+.margemCincopx .btn {
+	margin-right: 10px;
+	color: #f9f9f9;
+	font-size: 13px;
+}
+
+.ui-inputfield,.ui-widget-content .ui-inputfield {
+	background: none #f5f5f5;
+	padding: 7px;
+	color: #454545;
+}
+
+.ui-tabs.ui-tabs-top {
+	border-bottom: none;
+}
+
+.busca {
+	margin-right: -28px;
+	padding-right: 30px;
+	vertical-align: middle;
+}
+
+.campoGrande input {
+	width: 100%;
+}
+
+.labelBold {
+	font-family: 'ArimoBold', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	color: #595959;
+	margin-bottom: 4px;
+}
+
+.espacoBotom {
+	margin-bottom: 10px;
+}
+
+.espacoObs {
+	margin: 30px 0 10px 0;
+}
+
+.espacoObs img {
+	margin-right: 7px;
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger {
+	width: 23px;
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+	margin-top: 5px;
+}
+
+.ui-selectcheckboxmenu .ui-selectcheckboxmenu-trigger {
+	width: 20px;
+}
+
+a.ui-selectcheckboxmenu-label-container {
+	text-decoration: none;
+}
+
+.ui-menu .ui-menu-parent .ui-menu-child {
+	width: 200px;
+}
+
+.ui-menu.ui-widget a {
+	white-space: normal;
+}
+
+#header {
+	width: 100%;
+	background: #003c7b;
+	background-image: url('../images/png/topoDataGuardian.png');
+	padding: 0;
+	height: 100px;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#menu-bar {
+	margin-bottom: 10px;
+}
+
+#logo {
+	width: 270px;
+	height: 71px;
+	float: left;
+	margin: 15px 0 0 10px;
+}
+
+#usuario {
+	float: right;
+	width: 150px;
+	height: 30px;
+	/*padding: 5px;*/
+	margin: 20px 20px 0px 0px;
+	background: rgba(47, 90, 184, 0.4);
+	border: 1px solid #00759D;
+	border-radius: 5px;
+}
+
+#usuario2 {
+	float: right;
+	margin: 35px 20px 0px 0px;
+}
+
+#usuario img {
+	top: -7px;
+	margin: 4px;
+}
+
+#usuario span {
+	position: relative;
+	top: -10px;
+	/* margin: 10px; */
+	color: #FFF;
+	font-weight: bold;
+}
+
+/* Style rules to make data tables look better */
+
+/*Style rules for message severity levels */
+.infoMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-color: #FEC194;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.warnMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	background-color: #99CCFF;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.errorMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #C06C6C;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fatalMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #EF1408;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.helpbuttom {
+	position: absolute;
+	left: 30px;
+	top: 550px;
+}
+
+.vazio {
+	
+}
+
+/*Classes utilizadas como base para montagem do panel-grid*/
+
+/* Estilo utilizado para os componentes em HTML  */
+.input-text {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	border-color: #999999;
+	border-width: 1px;
+	border-style: solid;
+	height: 20px;
+}
+
+.input-text-bold {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	height: 20px;
+	font-weight: bold;
+}
+
+.input-text-radius {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	height: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	"
+}
+
+.list-text {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	border-color: #999999;
+	border-width: 1px;
+	border-style: solid;
+	background: #FFFFFF;
+}
+
+.textUsuario {
+	font-family: verdana, serif, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	position: absolute;
+	left: 85px;
+	top: 65px;
+}
+
+.command-button {
+	font-family: verdana, serif, sans-serif;
+	height: 20px;
+	font-size: 11px;
+	color: #333333;
+	background-color: #D9D9D9;
+	border-color: #333333;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.botaoProcedure {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	background-color: #FFFFFF;
+}
+
+.component-panel {
+	border: 1px solid #999999;
+}
+
+/* Links */
+a:link {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+a:visited {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color: #333333;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+/* Miscellaneous settings */
+.systemNameImage {
+	position: absolute;
+	left: 20px;
+	top: 80px;
+}
+
+.helpbuttom {
+	position: absolute;
+	left: 32px;
+	top: 540px;
+}
+
+.n-disabled {
+	cursor: default;
+}
+
+.button-enabled {
+	
+}
+
+/* para caregar imgs*/
+.search {
+	background-image: url("../images/search.png");
+}
+
+.asterisco {
+	text-align: left;
+	vertical-align: top;
+	color: red;
+	osition: relative;
+}
+
+.border-padrao {
+	padding: 1px;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.ui-state-disabled80 {
+	opacity: .80 !important;
+}
+
+#login-sub,#security-sub {
+	background-color: #eaeaea;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+	-khtml-border-radius: 0 0 5px 5px;
+	border-top: 1px solid #fff;
+	height: 212px;
+	padding-left: 30px;
+	padding-top: 30px;
+	color: #4c4c4c;
+	font-size: 12px;
+	padding-right: 5px;
+}
+
+.rodape {
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	color: #565656;
+}
+
+.rodape img {
+	margin-right: 8px;
+	width: 28px;
+}

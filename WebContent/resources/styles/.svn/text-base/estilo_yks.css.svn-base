@@ -1,0 +1,39 @@
+
+	.inp{
+		width: 300px;
+		/*margin-left: 5px;*/
+	}
+	
+	output[type=text], outputText {
+		text-align: right;
+	}
+	
+	.semBorda tr, .semBorda td {
+	border: none !important;
+	margin-top: 20px;
+}
+
+	#form:j_idt69 {}border:none;}
+	
+	.radio {
+		margin-left: 6px;
+		margin-right: 11px; 		
+	}
+	
+	.footer {
+		position: absolute;
+		bottom: 20px;
+		float: right;
+	}
+	
+	.bordaObrigatoria {
+		border: solid 1px #ff4500;
+		padding: 10px;
+		
+		width: 820px;
+		overflow: hidden;
+		
+		-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+         box-sizing: border-box;
+	}

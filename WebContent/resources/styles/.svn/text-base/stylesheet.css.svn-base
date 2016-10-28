@@ -1,0 +1,302 @@
+body {margin:0;}
+
+#header {
+		width:100%;
+		background:#003c7b;							
+		background-image: url('../images/header-wrapper-bg.jpg');
+		padding: 20px;
+		overflow:hidden;
+		font-size:12px;
+		font-family:sans-serif;
+}
+#logo
+{
+		width:250px;
+		height:50px;
+		float:left;
+		margin:10px 0 0 10px;
+}
+
+#usuario {
+		float: right;
+		width: 200px;
+		height: 30px;
+		padding-left: 30px;
+		margin-top:10px;
+		background: url('../images/user.png') no-repeat;
+							
+}
+#usuario span
+{
+		position: relative;
+		top:5px;
+		color: #fff;
+		font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* Style rules to make data tables look better */
+
+
+
+
+/*Style rules for message severity levels */
+.infoMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color:#333333;
+	background-color: #FEC194;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.warnMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	background-color: #99CCFF;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.errorMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #C06C6C;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.fatalMessage {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #EF1408;
+	padding: 3px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.helpbuttom {
+	position: absolute;
+	left: 30px;
+	top: 550px;
+	
+}
+
+
+
+
+
+
+
+.vazio {
+	
+}
+
+
+/*Classes utilizadas como base para montagem do panel-grid*/
+
+
+
+
+/* Estilo utilizado para os componentes em HTML  */
+
+
+
+
+
+
+
+
+.input-text {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	border-color: #999999;
+	border-width: 1px;
+	border-style: solid;
+	height: 20px;
+	
+}
+
+.input-text-bold {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	height: 20px;
+	font-weight: bold;
+	
+}
+
+.input-text-radius {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	height: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;"
+}
+
+
+
+.list-text {
+	font-family: verdana, serif, sans-serif;
+	font-size: 12px;
+	padding: 1px;
+	border-color:#999999;
+	border-width: 1px;
+	border-style: solid;
+	background: #FFFFFF;
+}
+
+
+
+.textUsuario {
+	font-family: verdana, serif, sans-serif;
+	font-size: 10px;
+	color:  #333333;
+	position: absolute;
+	left: 85px;
+	top: 65px;
+}
+
+.command-button {
+	font-family: verdana, serif, sans-serif;
+	height: 20px;
+	font-size: 11px;
+	color: #333333;
+	background-color: #D9D9D9;
+	border-color: #333333;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.botaoProcedure {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	font-family: verdana, serif, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	background-color: #FFFFFF;
+}
+
+
+.component-panel {
+	border: 1px solid #999999;
+}
+
+
+
+
+
+
+
+/* Links */
+a:link {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color:  #333333;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+a:visited {
+	vertical-align: top;
+	font-family: verdana, serif, sans-serif;
+	color:  #333333;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+
+ 
+
+
+
+/* Miscellaneous settings */
+.systemNameImage {
+	position: absolute;
+	left: 20px;
+	top: 80px;
+}
+
+.helpbuttom {
+	position: absolute;
+	left: 32px;
+	top: 540px;
+}
+
+
+
+
+.n-disabled {
+	cursor: default;
+}
+
+.button-enabled {
+	
+}
+
+
+/* para caregar imgs*/
+.search {  
+    background-image: url("../images/search.png");  
+}
+
+.asterisco{
+	text-align: left;
+	vertical-align: top;
+	color: red;
+	osition: relative;	
+}
+
+.border-padrao {
+	padding: 1px;
+	border-width: 1px;
+	border-style: solid;
+	
+	
+}
+
+.ui-state-disabled80 {
+	opacity: .80 !important;
+}
+
+#login-sub, #security-sub {
+background-color: #eaeaea;
+border-radius: 0 0 5px 5px;
+-moz-border-radius: 0 0 5px 5px;
+-webkit-border-radius: 0 0 5px 5px;
+-khtml-border-radius: 0 0 5px 5px;
+border-top: 1px solid #fff;
+height: 212px;
+padding-left: 30px;
+padding-top: 30px;
+color: #4c4c4c;
+font-size: 12px;
+padding-right: 5px;
+}
+
